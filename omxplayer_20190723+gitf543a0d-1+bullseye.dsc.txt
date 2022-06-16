@@ -1,0 +1,22 @@
+Format: 3.0 (quilt)
+Source: omxplayer
+Binary: omxplayer
+Architecture: armhf
+Version: 20190723+gitf543a0d-1+bullseye
+Maintainer: Serge Schneider <serge@raspberrypi.com>
+Homepage: https://github.com/popcornmix/omxplayer
+Standards-Version: 4.3.0
+Vcs-Browser: https://github.com/popcornmix/omxplayer
+Vcs-Git: https://github.com/popcornmix/omxplayer
+Build-Depends: debhelper (>= 10), libasound2-dev, libpcre3-dev, libidn11-dev, libboost1.74-dev, libfreetype6-dev, libusb-1.0-0-dev, libdbus-1-dev, libssl-dev, libssh-dev, libsmbclient-dev, libraspberrypi-dev, node-marked-man, libswresample-dev, libavcodec-dev, libavformat-dev, libraspberrypi0
+Package-List:
+ omxplayer deb video optional arch=armhf
+Checksums-Sha1:
+ c0599a9d1d2dc1fabcb0377fb4de30727223a452 1220417 omxplayer_20190723+gitf543a0d.orig.tar.gz
+ 0bec87ba1dcbbbbb783baab6d1b7c00694579182 4852 omxplayer_20190723+gitf543a0d-1+bullseye.debian.tar.xz
+Checksums-Sha256:
+ 0e19b001f5e03c6cb928fd50ce1f0b3c678a6df452b218433df24de8383e7c33 1220417 omxplayer_20190723+gitf543a0d.orig.tar.gz
+ 97824c7476ad21bbb05d587118104e588944def92fbeb2503081016571535ca5 4852 omxplayer_20190723+gitf543a0d-1+bullseye.debian.tar.xz
+Files:
+ 3d90c079e3c8a3fc798b042ff402bb3b 1220417 omxplayer_20190723+gitf543a0d.orig.tar.gz
+ 600d7f92defa7ffbea739bb951abff93 4852 omxplayer_20190723+gitf543a0d-1+bullseye.debian.tar.xz
